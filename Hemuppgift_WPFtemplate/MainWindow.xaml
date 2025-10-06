@@ -8,5 +8,20 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
 
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Button x:Name="Btn1" Content="Grid" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="Btn1_Click"/>
+        <Button x:Name="Btn2" Content="StackPanel" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="Btn2_Click"/>
+        <Button x:Name="Btn3" Content="WrapPanel" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="Btn3_Click"/>
+        <Button x:Name="Btn4" Content="DockPanel" Grid.Row="1" Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="Btn4_Click"/>
+
     </Grid>
 </Window>
