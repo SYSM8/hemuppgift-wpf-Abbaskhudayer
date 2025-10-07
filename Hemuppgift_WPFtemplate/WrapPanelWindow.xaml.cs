@@ -23,5 +23,15 @@ namespace Hemuppgift_WPFtemplate
         {
             InitializeComponent();
         }
+
+        private void rbHorizontal1_Checked(object sender, RoutedEventArgs e)
+        {
+            Ellipses.Orientation = Orientation.Horizontal;
+        }
+
+        private void rbVertical2_Checked(object sender, RoutedEventArgs e)
+        {
+            Ellipses.Orientation = Orientation.Vertical;
+        }
     }
 }

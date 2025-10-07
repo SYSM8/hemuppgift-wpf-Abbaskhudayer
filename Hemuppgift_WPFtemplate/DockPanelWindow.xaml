@@ -7,6 +7,16 @@
         mc:Ignorable="d"
         Title="DockPanelWindow" Height="450" Width="800">
     <Grid>
-        
+        <DockPanel>
+            <Button DockPanel.Dock="Top" x:Name="btntop" Content="Top" Width="80" Height="30" Margin="5"/>
+            <Button DockPanel.Dock="Left" x:Name="btnleft" Content="Left" Width="80" Height="30" Margin="5"/>
+            <Button DockPanel.Dock="Right" x:Name="btnright" Content="Right" Width="80" Height="30" Margin="5"/>
+            <Button DockPanel.Dock="Bottom" x:Name="btnbottom" Content="Bottom" Width="80" Height="30" Margin="5"/>
+            <Button x:Name="btncenter" Content="Center" Width="80" Height="30" Margin="5" Click="btncenter_Click"/>
+        </DockPanel>
+
+        <Image x:Name="Pokal" Source="C:\Users\abbas\OneDrive\Dokument\Programmering C#\WpfGenomgang\WpfHemuppgift\Hemuppgift_WPFtemplate\TrophyImage.jpg" Height="150" Width="150" Visibility="Hidden"/>
+
+
     </Grid>
 </Window>

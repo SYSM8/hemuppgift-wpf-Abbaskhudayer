@@ -23,5 +23,10 @@ namespace Hemuppgift_WPFtemplate
         {
             InitializeComponent();
         }
+
+        private void btncenter_Click(object sender, RoutedEventArgs e)
+        {
+            Pokal.Visibility = Visibility.Visible;
+        }
     }
 }
